@@ -15,7 +15,7 @@ body {
   }
   
   a {
-    color: #328CC1;
+    color: #E0DEDE;
     text-decoration: none;
   }
   
@@ -755,145 +755,6 @@ body {
     border: 2px solid #328CC1;
   }
 
-   /* Products Section
-  --------------------------------*/
-  #products {
-    background: #1D2731;
-    background-size: cover;
-    padding: 80px 0 60px 0;
-  }
-  
-  #products .pic {
-    max-height: 300px;
-    max-width: 250px;
-  }
-
-  #products .card {
-    width: 100%;
-    padding: 50px 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    border: 1px solid #1D2731;
-    height: 200px;
-    position: relative;
-    background: #1D2731;
-  }
-  
-  #products .card-img-top {
-    max-width: 100%;
-    height: 260px;
-    margin-bottom: 15px;
-    position: relative;
-  }
-
-  #products .icon {
-    position: absolute;
-    top: -36px;
-    left: calc(50% - 36px);
-    transition: 0.2s;
-    border-radius: 50%;
-    border: 6px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 72px;
-    height: 72px;
-    background: #328CC1;
-  }
-  
-  #products .icon a {
-    display: inline-block;
-  }
-  
-  #products .icon i {
-    color: #fff;
-    font-size: 24px;
-    line-height: 0;
-  }
-  
-  #products .box:hover .icon {
-    background: #fff;
-    border: 2px solid #328CC1;
-  }
-  
-  #products .box:hover .icon i {
-    color: #328CC1;
-  }
-  
-  #products .box:hover .icon a {
-    color: #328CC1;
-  }
-  
-  #products .title {
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
-  
-  #products .title a {
-    color: #C5C1C0;
-  }
-  
-  #products .description {
-    font-size: 14px;
-    line-height: 24px;
-    display: block;
-  }
-  
-
-   /* Products Section
-  --------------------------------*/
-  #products {
-    background: #1D2731;
-    padding: 80px 0 60px 0;
-  }
-  
-  #products .member {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  #products .member .pic {
-    margin-bottom: 15px;
-    overflow: hidden;
-    height: 260px;
-  }
-  
-  #products .member .pic img {
-    max-width: 100%;
-  }
-  
-  #products .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-  }
-  
-  #products .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-  }
-  
-  #products .member .social {
-    margin-top: 15px;
-  }
-  
-  #products .member .social a {
-    color: #b3b3b3;
-  }
-  
-  #products .member .social a:hover {
-    color: #328CC1;
-  }
-  
-  #products .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-  }
 
   
   /* Team Section
@@ -916,7 +777,31 @@ body {
     border: px solid #d9b310;
     border-radius: 15px;
   }
+
+  #team .member .dv:hover {
+    content: url(../img/DV-hover.jpg);
+  }
+
+  #team .member .aw:hover {
+    content: url(../img/AW-hover.jpg);
+  }
+
+  #team .member .ts:hover {
+    content: url(../img/TS-hover.jpg);
+  }
+
+  #team .member .fs:hover {
+    content: url(../img/FS-hover.jpg);
+  }
   
+  #team .member .tsk:hover {
+    content: url(../img/TS-kiosk-hover.jpg);
+  }
+
+  #team .member .sc:hover {
+    content: url(../img/SC-hover.jpg);
+  }
+
   #team .member .pic img {
     max-width: 100%;
   }
@@ -925,6 +810,10 @@ body {
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 18px;
+  }
+
+  #team .member a:hover {
+    color: #328cc1;
   }
   
   #team .member span {
