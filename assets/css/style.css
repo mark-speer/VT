@@ -609,26 +609,7 @@ body {
     font-size: 14px;
   }
   
-  /* Facts Section
-  --------------------------------*/
-  #facts {
-    background: #f7f7f7;
-    padding: 80px 0 60px 0;
-  }
-  
-  #facts .counters span {
-    font-size: 48px;
-    display: block;
-    color: #2dc997;
-  }
-  
-  #facts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-  }
-  
+
   /* Solutions Section
   --------------------------------*/
   #solutions {
@@ -776,6 +757,8 @@ body {
     height: 260px;
     border: 0px solid #d9b310;
     border-radius: 15px;
+    filter: brightness(1);
+    transition: filter 0.2s ease-in-out;
   }
 
   #team .member .prod:hover {
@@ -821,6 +804,7 @@ body {
 
   .flag {
         padding-top: 10px;
+        margin-top: 25px
 
   }
   
