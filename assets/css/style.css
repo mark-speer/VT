@@ -190,6 +190,7 @@ body {
   .navbar .dropdown ul {
     display: block;
     position: absolute;
+    border-radius: 15px;
     left: 24px;
     top: calc(100% + 30px);
     margin: 0;
@@ -277,6 +278,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
+    color: #fff;
     background: rgba(77, 77, 77, 0.9);
     transition: 0.3s;
     z-index: 999;
@@ -296,7 +298,8 @@ body {
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1D2731;
     overflow-y: auto;
     transition: 0.3s;
   }
@@ -312,7 +315,7 @@ body {
   .navbar-mobile a {
     padding: 10px 20px;
     font-size: 15px;
-    color: #1D2731;
+    color: #fff;
   }
   
   .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -534,6 +537,12 @@ body {
     min-height: 300px;
     background: url(../img/colors.jpg)  center top no-repeat;
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    #about .about-container .background{
+      background-size: 100%;
+    }
   }
   
   #about .about-container .content {
