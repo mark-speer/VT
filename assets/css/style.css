@@ -927,6 +927,10 @@ body {
     justify-content: center;
   }
   
+  #contact .survey {
+    font-size: 28px;
+  }
+
   #contact .social-links a i {
     line-height: 0;
   }
