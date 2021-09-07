@@ -374,7 +374,8 @@ body {
       background-attachment: fixed;
     }
   }
-  
+
+ 
   #hero video {
     position:absolute;
     object-fit: fill;
@@ -419,6 +420,16 @@ body {
     #hero h1 {
       font-size: 28px;
       line-height: 36px;
+    }
+
+    #hero {
+      background: url("../img/hero.jpg");
+      background-size: 100% 80%;
+      background-repeat: no-repeat;
+    }
+  
+    #hero video {
+      display:none;
     }
   }
   
