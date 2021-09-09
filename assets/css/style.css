@@ -424,7 +424,7 @@ body {
 
     #hero {
       background: url("../img/hero.jpg");
-      background-size: 100% 80%;
+      background-size: 100% 100%;
       background-repeat: no-repeat;
     }
   
@@ -465,6 +465,7 @@ body {
   #hero .btn-get-started:hover {
     background: #328CC1;
     border: 2px solid #328CC1;
+    backdrop-filter: blur(10px);
   }
   
   /*--------------------------------------------------------------
