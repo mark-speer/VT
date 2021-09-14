@@ -375,6 +375,10 @@ body {
     }
   }
 
+  #hero em {
+    font-style: bold;
+    
+  }
  
   #hero video {
     position:absolute;
