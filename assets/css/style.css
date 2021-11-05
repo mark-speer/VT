@@ -940,6 +940,58 @@ body {
     font-size: 18px;
     margin: 0 2px;
   }
+
+    /* Call To Action Section
+  --------------------------------*/
+  #trusted {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/dplateblur.jpg) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    #trusted {
+      background-attachment: scroll;
+    }
+  }
+  
+  #trusted .cta-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #trusted .cta-text {
+    color: #fff;
+  }
+  
+  @media (min-width: 769px) {
+    #trusted .cta-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  
+  #trusted .cta-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #trusted .cta-btn:hover {
+    background: #328CC1;
+    border: 2px solid #328CC1;
+  }
   
   /* Team Section
   --------------------------------*/
