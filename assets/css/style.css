@@ -31,6 +31,11 @@ body {
     margin: 0 0 20px 0;
     padding: 0;
   }
+
+  .center-align {
+    align-items: center;
+    text-align: center;
+  }
   
   /*--------------------------------------------------------------
   # Back to top button
@@ -636,6 +641,113 @@ body {
     line-height: 24px;
     font-size: 14px;
   }
+
+    /* Phone Section
+  --------------------------------*/
+  #phone {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/dplateblur.jpg) fixed center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+
+  #phone h2 {
+    text-align: center;
+    align-items: center;
+  }
+
+  #phone .cta-text-container {
+    align-items: center;
+  }
+  
+  @media (max-width: 1024px) {
+    #phone {
+      background-attachment: scroll;
+    }
+  }
+
+  #phone .cta-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  #phone .cta-text {
+    color: #fff;
+    align-items: center;
+  }
+  
+  @media (min-width: 769px) {
+    #phone .cta-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  
+  #phone .cta-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    align-items: center;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #phone .cta-btn:hover {
+    background: #328CC1;
+    border: 2px solid #328CC1;
+  }
+
+
+  #phone .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #328CC1;
+  }
+  
+  #phone .icon a {
+    display: inline-block;
+  }
+  
+  #phone .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+  }
+  
+  #phone .box:hover .icon {
+    background: #fff;
+    border: 2px solid #328CC1;
+  }
+  
+  #phone .box:hover .icon i {
+    color: #328CC1;
+  }
+  
+  #phone .box:hover .icon a {
+    color: #328CC1;
+  }
+
   
 
   /* Solutions Section
