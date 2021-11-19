@@ -755,7 +755,7 @@ body {
   #solutions {
     background: #1D2731;
     background-size: cover;
-    padding: 80px 0 60px 0;
+    padding: 80px 0 40px 0;
   }
   
   #solutions .box {
@@ -997,7 +997,7 @@ body {
   --------------------------------*/
   #team {
     background: #1D2731;
-    padding: 80px 0 60px 0;
+    padding: 40px 0 60px 0;
   }
   
   #team .member {
