@@ -1063,6 +1063,96 @@ body {
 
   }
   
+
+  /* service Section
+  --------------------------------*/
+  #service {
+    background: #1D2731;
+    padding: 80px 0;
+  }
+
+  #service .about-container .background {
+    min-height: 350px;
+    background: url(../img/DSC00633.JPG)  center top no-repeat;
+    background-size: contain;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  @media (max-width: 768px) {
+    #service .about-container .background{
+      background-size: 75%;
+    }
+  }
+
+  #service .about-container .content {
+    background: #1D2731;
+  }
+
+  #service .about-container .title {
+    color: #E0DEDE;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  @media (max-width: 768px) {
+    #service .about-container .title {
+      padding-top: 15px;
+    }
+  }
+
+  #service .about-container p {
+    line-height: 26px;
+  }
+
+  #service .about-container p:last-child {
+    margin-bottom: 0;
+  }
+
+  #aservice .about-container .icon-box {
+    background: #1D2731;
+    background-size: cover;
+    padding: 0 0 30px 0;
+  }
+
+  #service .about-container .icon-box .icon {
+    float: left;
+    background: #1D2731;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #328CC1;
+  }
+
+  #service .about-container .icon-box .icon i {
+    color: #328CC1;
+    font-size: 24px;
+    line-height: 0;
+  }
+
+  #service .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  #service .about-container .icon-box .title a {
+    color: #E0DEDE;
+  }
+
+  #service .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
   /* Contact Section
   --------------------------------*/
   #contact {
