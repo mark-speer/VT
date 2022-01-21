@@ -752,7 +752,7 @@ body {
 
   #about-product .about-container .dvcomp {
     min-height: 450px;
-    background: url(../img/products/dv/computers/DiamondVue-Comp-1024x683.jpg)  center top no-repeat;
+    background: url(../img/colors.jpg)  center top no-repeat;
     margin-bottom: 15px;
   }
 
@@ -1268,11 +1268,11 @@ body {
   }
 
   #team-size .row {
-    padding-top: 30;
+    margin-top: auto;
   }
   
   #team-size .member .pic {
-    margin-bottom: 15px;
+    margin: 15px;
     overflow: hidden;
     height: 260px;
     border-radius: 15px;
@@ -1288,6 +1288,7 @@ body {
 
   #team-size .member .pic img {
     max-width: 100%;
+    
   }
   
   #team-size .member h4 {
@@ -1307,7 +1308,9 @@ body {
   }
 
   #team-size .member {
-
+    background-color: #328CC1;
+    border-radius: 5px;
+    width: 300px;
   }
   
   #team-size .member .social {
